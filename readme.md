@@ -11,11 +11,11 @@ return <h1>hello world!</h1>
 `true && expression`
 
 ```javascript
-    render() {
-        return (
-            data.length > 0 && <p>self-discipline and grit</p>
-        )
-    }
+render() {
+    return (
+        data.length > 0 && <p>self-discipline and grit</p>
+    )
+}
 ```
 
 ## Inline if-else
@@ -23,21 +23,21 @@ return <h1>hello world!</h1>
 `condition ? true: false`
 
 ```javascript
-    return (
-        { isLogin ? 'Logout' : 'Login' }
-    )
+return (
+    { isLogin ? 'Logout' : 'Login' }
+)
 ```
 
 ```javascript
-    return (
-        <div>
-            {isLogin ? (
-                <button onClick={this.handleLogOut}/>
-            ): (
-                <button onClick={this.handleLogIn}/>
-            )}
-        </div>
-    )
+return (
+    <div>
+        {isLogin ? (
+            <button onClick={this.handleLogOut}/>
+        ): (
+            <button onClick={this.handleLogIn}/>
+        )}
+    </div>
+)
 ```
 
 ## Element Variables
